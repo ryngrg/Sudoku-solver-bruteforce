@@ -34,11 +34,11 @@ int main()
             cout <<" "; ch=getche();
             if(ch==' ')
             {
-                sud[i][j]=0;
+                sud[j][i]=0;
             }
             else
             {
-                sud[i][j]=(int)ch -48;
+                sud[j][i]=(int)ch -48;
             }
         }
         cout <<"\n";
